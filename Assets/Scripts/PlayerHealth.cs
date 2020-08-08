@@ -2,20 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] float hitPoints = 50f;
-
+    [SerializeField] float hitPoints = 130f;
+ 
     public void Decrease(float damage)
     {
         hitPoints -= damage;
 
         if (hitPoints <= 0)
         {
-            Destroy(gameObject);
-
-            // todo: death effect
-            // todo: factor out
+            Debug.Log("I am very much dead");
         }
-    }    
+    }
 }

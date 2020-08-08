@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  damage: 6
+  damage: 10
 --- !u!95 &3878171526268656831
 Animator:
   serializedVersion: 3
