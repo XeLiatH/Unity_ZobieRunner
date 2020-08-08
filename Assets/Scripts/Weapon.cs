@@ -8,6 +8,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] Camera FPCamera;
     [SerializeField] float range = 100f;
     [SerializeField] float bulletDamage = 5f;
+    [SerializeField] ParticleSystem muzzleFlash;
 
     void Update()
     {
@@ -19,18 +20,25 @@ public class Weapon : MonoBehaviour
 
     private void Shoot()
     {
+        ProcessRaycast();
+        PlayMuzzleFlash();
+    }
+
+    private void ProcessRaycast()
+    {
         bool isHit = Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out RaycastHit hit, range);
         if (isHit)
         {
-            Debug.Log(hit.transform.name);
-
             EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
             if (target)
             {
                 target.takeDamage(bulletDamage);
             }
-
-            // todo: add visual effect
         }
+    }
+
+    private void PlayMuzzleFlash()
+    {
+        muzzleFlash.Play();
     }
 }
