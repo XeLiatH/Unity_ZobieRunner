@@ -7,6 +7,7 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] Camera FPCamera;
     [SerializeField] float range = 100f;
+    [SerializeField] float bulletDamage = 5f;
 
     void Update()
     {
@@ -22,6 +23,14 @@ public class Weapon : MonoBehaviour
         if (isHit)
         {
             Debug.Log(hit.transform.name);
+
+            EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
+            if (target)
+            {
+                target.takeDamage(bulletDamage);
+            }
+
+            // todo: add visual effect
         }
     }
 }
