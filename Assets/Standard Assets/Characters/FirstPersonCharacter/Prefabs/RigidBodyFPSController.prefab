@@ -349,6 +349,8 @@ MonoBehaviour:
   range: 100
   bulletDamage: 5
   muzzleFlash: {fileID: 6126869878167881587}
+  hitEffect: {fileID: 6448173035605051463, guid: 8f8a9ae66dc48fa4bbae5dad73dfaed0,
+    type: 3}
 --- !u!1001 &5756037870316133315
 PrefabInstance:
   m_ObjectHideFlags: 0
