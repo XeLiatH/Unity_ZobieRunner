@@ -8630,11 +8630,6 @@ PrefabInstance:
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1551649780}
-    - target: {fileID: 7191472387793275038, guid: ec381cb764998a040aab029d626e356f,
-        type: 3}
-      propertyPath: movementSettings.JumpForce
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 7191472387799982424, guid: ec381cb764998a040aab029d626e356f,
         type: 3}
       propertyPath: m_LocalPosition.x
