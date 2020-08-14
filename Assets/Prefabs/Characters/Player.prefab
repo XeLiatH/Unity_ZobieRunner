@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4089694500784118343}
+  - component: {fileID: 3053700087014558085}
   m_Layer: 0
   m_Name: Weapons
   m_TagString: Untagged
@@ -27,12 +28,24 @@ Transform:
   m_LocalPosition: {x: 0.18879728, y: -0.100037575, z: 0.39985955}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 883346998986467263}
-  - {fileID: 3209500635358826387}
   - {fileID: 8623816345241696158}
+  - {fileID: 3209500635358826387}
+  - {fileID: 883346998986467263}
   m_Father: {fileID: 7191472387799982426}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1.608, y: -93.097, z: 2.774}
+--- !u!114 &3053700087014558085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760370329502882522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba77ecc4166bc044baa178fc3c94a0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7191472387800350076
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,6 +456,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shotgun
       objectReference: {fileID: 0}
+    - target: {fileID: 2337074158997199750, guid: 836babf944c579d40ac8eaafae907489,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4307762221736596362, guid: 836babf944c579d40ac8eaafae907489,
         type: 3}
       propertyPath: FPCamera
@@ -506,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
@@ -527,6 +545,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Carbine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337074158997199750, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4173215568358588721, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
@@ -601,7 +624,7 @@ PrefabInstance:
     - target: {fileID: 2337074158996965286, guid: 53be29104f0c5cc4ea77bfe42ce167a2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 53be29104f0c5cc4ea77bfe42ce167a2,
         type: 3}
