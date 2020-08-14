@@ -6,18 +6,14 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class WeaponZoom : MonoBehaviour
 {
     [SerializeField] Camera fpsCamera;
+    [SerializeField] RigidbodyFirstPersonController fpsController;
+
     [SerializeField] float zoomedOutFOV = 60f;
     [SerializeField] float zoomedInFov = 30f;
     [SerializeField] float zoomedOutSensitivity = 2f;
     [SerializeField] float zoomedInSensitivity = 1f;
 
     bool zoomedIn = false;
-    RigidbodyFirstPersonController fpsController;
-
-    void Start()
-    {
-        fpsController = GetComponent<RigidbodyFirstPersonController>();
-    }
 
     void Update()
     {

@@ -8630,10 +8630,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1721656058097283987, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: shootingDelay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3209500635358794675, guid: ec381cb764998a040aab029d626e356f,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3975734715310365631, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: shootingDelay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3975734715310365631, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: bulletDamage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3975734715310365631, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: range
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5390708170765781795, guid: ec381cb764998a040aab029d626e356f,
         type: 3}
@@ -8705,6 +8725,21 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 7191472388269664662}
+    - target: {fileID: 7785379311067980722, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: bulletDamage
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785379311067980722, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: shootingDelay
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785379311067980722, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: range
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7191472387880285885, guid: ec381cb764998a040aab029d626e356f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ec381cb764998a040aab029d626e356f, type: 3}
