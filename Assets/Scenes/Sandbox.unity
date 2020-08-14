@@ -8625,6 +8625,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 883346998986111903, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3209500635358794675, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5390708170765781795, guid: ec381cb764998a040aab029d626e356f,
         type: 3}
       propertyPath: gameOverCanvas
@@ -8695,7 +8705,8 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 7191472388269664662}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7191472387880285885, guid: ec381cb764998a040aab029d626e356f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ec381cb764998a040aab029d626e356f, type: 3}
 --- !u!114 &7191472388269664662 stripped
 MonoBehaviour:
