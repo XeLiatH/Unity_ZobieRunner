@@ -8690,5 +8690,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7191472387880285885, guid: ec381cb764998a040aab029d626e356f,
+        type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 7191472388269664662}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec381cb764998a040aab029d626e356f, type: 3}
+--- !u!114 &7191472388269664662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3075022453864745968, guid: ec381cb764998a040aab029d626e356f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7191472388269664661}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed584f18646e584da5248fd5d52904f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

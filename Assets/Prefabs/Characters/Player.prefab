@@ -50,6 +50,7 @@ MonoBehaviour:
   muzzleFlash: {fileID: 3948035890535988393}
   hitEffect: {fileID: 6448173035605051463, guid: 8f8a9ae66dc48fa4bbae5dad73dfaed0,
     type: 3}
+  ammoSlot: {fileID: 0}
 --- !u!1 &7191472387800350076
 GameObject:
   m_ObjectHideFlags: 0
@@ -65,6 +66,7 @@ GameObject:
   - component: {fileID: 7191472387103546063}
   - component: {fileID: 5390708170765781795}
   - component: {fileID: 828605373}
+  - component: {fileID: 3075022453864745968}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -225,6 +227,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fpsCamera: {fileID: 7191472387798450010}
+  zoomedOutFOV: 60
+  zoomedInFov: 30
+  zoomedOutSensitivity: 2
+  zoomedInSensitivity: 1
+--- !u!114 &3075022453864745968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191472387800350076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed584f18646e584da5248fd5d52904f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 50
 --- !u!1 &7191472387800350078
 GameObject:
   m_ObjectHideFlags: 0
