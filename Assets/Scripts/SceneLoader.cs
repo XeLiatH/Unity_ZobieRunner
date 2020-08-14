@@ -20,6 +20,7 @@ public class SceneLoader : MonoBehaviour
     public void Reload()
     {
         Time.timeScale = 1;
+        FindObjectOfType<WeaponSwitcher>().enabled = false;
         SceneManager.LoadScene(0);
     }
 
