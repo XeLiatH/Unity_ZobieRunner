@@ -24,6 +24,11 @@ public class Weapon : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        hasShot = false;
+    }
+
     private IEnumerator Shoot()
     {
         hasShot = true;
