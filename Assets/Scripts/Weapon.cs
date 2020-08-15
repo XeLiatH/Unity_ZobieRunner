@@ -37,7 +37,7 @@ public class Weapon : MonoBehaviour
         {
             ProcessRaycast();
             PlayMuzzleFlash();
-            ammoSlot.DecreaseAmmo();
+            ammoSlot.DecreaseAmmo(ammoType);
         }
 
         yield return new WaitForSeconds(shootingDelay);
@@ -46,7 +46,7 @@ public class Weapon : MonoBehaviour
 
     private bool CanShoot()
     {
-        return ammoSlot.GetCurrentAmount() > 0;
+        return ammoSlot.GetCurrentAmount(ammoType) > 0;
     }
 
     private void ProcessRaycast()
