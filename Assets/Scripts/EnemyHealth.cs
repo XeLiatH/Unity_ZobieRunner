@@ -7,14 +7,12 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] float hitPoints = 50f;
 
-    NavMeshAgent navMeshAgent;
     Animator animator;
 
     bool isDead = false;
 
     void Start()
     {
-        navMeshAgent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
     }
 
